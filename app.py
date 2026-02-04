@@ -21,3 +21,4 @@ if st.button("Classify"):
         except Exception:
             st.error("Invalid model response")
             st.text(result)
+
